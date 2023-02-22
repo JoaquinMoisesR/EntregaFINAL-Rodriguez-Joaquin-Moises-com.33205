@@ -1,0 +1,464 @@
+@charset "UTF-8";
+/* Paleta de colores
+ color azul-negro: #373F51
+ color celeste: #008DD5
+ color piel: #DFBBB1
+ color rosa salmon: #F56476
+ color rosa fuerte: #E43F6F
+*/
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Righteous', cursive;
+  box-sizing: border-box; }
+
+/* SECTOR INDEX RESPONSIVE 500 - ZOOM 75%*/
+.header-flex {
+  background-color: #F56476;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px; }
+
+.logo img {
+  width: 200px; }
+
+.header-flex ul {
+  display: flex;
+  list-style: none; }
+
+.header-flex li {
+  margin: 0.3rem;
+  padding: 5px; }
+
+.header-flex a {
+  color: #373F51;
+  text-decoration: none; }
+
+/* Contenido Principal */
+.banner-hero {
+  background-image: url("https://www.superprof.es/blog/wp-content/uploads/2017/10/aprender-a-coser-a-maquina.jpg");
+  height: 55vh;
+  background-size: 100%;
+  background-repeat: no-repeat; }
+
+.banner-hero h1 {
+  text-align: center;
+  color: rgba(253, 252, 252, 0.815);
+  position: relative;
+  top: 55%;
+  font-size: 20px; }
+
+/* Producto */
+.producto {
+  width: 100vw;
+  text-align: center;
+  font-size: x-large;
+  position: relative; }
+
+.producto h2 {
+  font-size: 22px;
+  text-decoration: underline;
+  position: relative;
+  top: -10px; }
+
+.parrafo-uno {
+  position: relative;
+  top: -10px; }
+
+p {
+  position: relative;
+  top: -50px;
+  font-size: 20px; }
+
+button {
+  position: relative;
+  top: -10px; }
+
+.producto img {
+  position: relative;
+  top: -25px;
+  height: 100vh;
+  width: 100vw; }
+
+.producto-dos img {
+  position: relative;
+  top: 20px;
+  height: 100vh;
+  width: 100vw; }
+
+.producto-dos {
+  width: 100vw;
+  text-align: center;
+  position: relative;
+  top: 5px; }
+
+.producto-dos h2 {
+  text-align: center;
+  font-size: 20px;
+  text-decoration: underline;
+  position: relative;
+  top: 30px; }
+
+.parrafo-dos {
+  text-align: center;
+  font-size: 20px;
+  position: relative;
+  top: 20px; }
+
+.button-dos {
+  font-size: 25px;
+  position: relative;
+  top: -20px; }
+
+/* Grilla de Productos */
+.productos-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); }
+
+/* Footer */
+.footer {
+  background-color: #DFBBB1;
+  height: 100px; }
+
+.footer ol {
+  list-style: none;
+  position: relative;
+  padding: 10px;
+  font-size: 14.5px;
+  display: flex;
+  justify-content: space-between; }
+
+.footer h3 {
+  text-decoration: none;
+  color: rgba(184, 69, 69, 0.877);
+  display: flex;
+  justify-content: center;
+  list-style: none; }
+
+a {
+  color: black;
+  text-decoration: underline;
+  position: relative; }
+
+/* CSS-SECTOR CONTACTO RESPONSIVE 500 - ZOOM 75% */
+.contacto-css {
+  background-color: #008DD5;
+  font-size: 10px;
+  height: 100vh;
+  padding: 5rem;
+  text-align: center; }
+
+input {
+  text-align: center;
+  width: -30px;
+  border-radius: 80px;
+  color: #eb3705;
+  font-size: 20px;
+  position: relative;
+  top: -60px; }
+
+select {
+  position: relative;
+  top: 1px;
+  font-size: 20px;
+  color: #ce0b0b; }
+
+.select-contact {
+  font-size: 20px;
+  position: relative;
+  top: -70px;
+  padding: 3px;
+  margin: 15px; }
+
+.novedad-contact {
+  position: relative;
+  top: -80px;
+  font-size: 40px; }
+
+.recibir-nov {
+  position: relative;
+  font-size: 30px;
+  top: -80px;
+  text-align: center; }
+
+.icono-enviar {
+  font-size: 30px;
+  position: relative;
+  top: -60px;
+  border-radius: 10px;
+  font-size: 30px; }
+
+/* CSS SECTOR SERVICIOS RESPONSIVE 500 - ZOOM 75%*/
+.servicios-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); }
+
+.servicio-uno img {
+  width: 100vw;
+  height: 70vh;
+  position: relative;
+  top: 2px; }
+
+.servicio-uno h2 {
+  font-size: 27px;
+  text-decoration: underline;
+  text-align: center;
+  position: relative;
+  top: 10px; }
+
+.servicio-uno {
+  background-color: #e43f6e94; }
+
+.servicio-p1 {
+  text-align: center;
+  font-size: 20px;
+  position: relative;
+  top: 10px; }
+
+.servicio-dos img {
+  width: 100vw;
+  height: 80vh;
+  position: relative;
+  top: 4px; }
+
+.servicio-dos h2 {
+  text-decoration: underline;
+  text-align: center;
+  position: relative;
+  top: 10px; }
+
+.servicio-p2 {
+  text-align: center;
+  position: relative;
+  top: 10px; }
+
+.servicio-dos {
+  background-color: #e43f6e94; }
+
+/* CSS AREA INFORMACION RELEVANTE RESPONSIVE 500 - ZOOM 75%*/
+.informacion-relevante h2 {
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline; }
+
+.informacionrelevante-grid {
+  width: 100vw;
+  text-align: center; }
+
+.informacion-relevante iframe {
+  height: 100vh;
+  width: 100vw; }
+
+.parrafo-ir {
+  text-align: center;
+  position: relative;
+  top: 5px; }
+
+/* CSS GALERIA PARA RESPONSIVE 500 - ZOOM 75% */
+.galeria-uno img {
+  height: 50vh;
+  width: 100vw; }
+
+.galeria-uno h2 {
+  text-align: center;
+  font-size: 25px;
+  text-decoration: underline;
+  background-color: aquamarine;
+  position: relative;
+  top: 5px; }
+
+.galeria-p1 {
+  text-align: center;
+  position: relative;
+  top: 8px;
+  font-size: 23px; }
+
+.galeria-dos img {
+  width: 100vw; }
+
+.galeria-dos h2 {
+  text-align: center;
+  font-size: 26px;
+  position: relative;
+  top: 5px;
+  text-decoration: underline;
+  background-color: aquamarine; }
+
+.galeria-p2 {
+  text-align: center;
+  position: relative;
+  top: 8px;
+  font-size: 23px; }
+
+.galeria-tres h2 {
+  text-align: center;
+  font-size: 25px;
+  text-decoration: underline;
+  background-color: aquamarine; }
+
+.galeria-p3 {
+  text-align: center;
+  position: relative;
+  top: 5px;
+  font-size: 20px; }
+
+/* MOBILE FIRST- RESPONSIVE LAPTOP 1440 - PC ESCRITORIO */
+@media (min-width: 1440px) {
+  /* INDEX LAPTOP 1440 */
+  /* Barra de Navegación */
+  .header-flex {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    font-size: 25px; }
+  /* Contenido Principal  */
+  .banner-hero {
+    background-position: center; }
+  .banner-hero h1 {
+    text-align: center;
+    color: rgba(253, 252, 252, 0.815);
+    position: relative;
+    top: 55%;
+    font-size: 25px; }
+  /* Productos */
+  /* Grilla de Productos */
+  .productos-grid {
+    display: flex;
+    grid-template-columns: repeat(2, 1fr); }
+  .producto img {
+    height: 150vh;
+    width: 50vw;
+    position: relative;
+    top: 5px; }
+  .producto-dos img {
+    height: 150vh;
+    width: 50vw;
+    padding: .5px;
+    position: relative;
+    top: -0.5px; }
+  .producto h2 {
+    font-size: 30px;
+    text-decoration: underline;
+    position: relative;
+    top: 5px;
+    margin: 1px; }
+  .parrafo-uno {
+    text-align: center;
+    position: relative;
+    top: 10px; }
+  .producto-dos {
+    width: 50vw;
+    text-align: center;
+    font-size: 25px; }
+  .producto-dos h2 {
+    font-size: 30px;
+    text-decoration: underline;
+    position: relative;
+    top: 1px; }
+  .parrafo-dos {
+    text-align: center;
+    position: relative;
+    top: -2px; }
+  .producto {
+    width: 50vw;
+    text-align: center;
+    font-size: 25px; }
+  /* Footer */
+  .footer {
+    height: 150px; }
+  .footer ol {
+    list-style: none;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between; }
+  .footer h3 {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: 30px; }
+  .galeria-uno img {
+    height: 111.4vh; }
+  .galeria-uno {
+    font-size: 25px; }
+  .galeria-dos {
+    font-size: 25px; }
+  .galeria-dos img {
+    width: 100vw; }
+  .galeria-tres {
+    font-size: 22px; }
+  .galeria-tres iframe {
+    width: 100vw;
+    height: 800px; }
+  /* SECTOR SERVICIOS 1440 */
+  .servicio-uno img {
+    width: 100vw;
+    height: 150vh;
+    position: relative;
+    top: 2px;
+    padding: 10px; }
+  .servicio-dos img {
+    width: 100vw;
+    height: 200vh;
+    position: relative;
+    top: 4px;
+    padding: 10px; }
+  .servicio-uno h2 {
+    font-size: 40px;
+    text-decoration: underline;
+    text-align: center;
+    position: relative;
+    top: 10px; }
+  .servicio-p1 {
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    top: 10px; }
+  .servicio-p2 {
+    font-size: 28px;
+    text-align: center;
+    position: relative;
+    top: 10px; }
+  /* SECTOR CONTACTO 1440 */
+  .novedad-contact {
+    position: relative;
+    top: 50px;
+    font-size: 40px;
+    text-align: center; }
+  .select-contact {
+    font-size: 20px;
+    position: relative;
+    top: 50px;
+    padding: 3px;
+    margin: 20px; }
+  .recibir-nov {
+    position: relative;
+    font-size: 30px;
+    top: 50px;
+    text-align: center; }
+  .icono-enviar {
+    font-size: 30px;
+    position: relative;
+    top: 50px;
+    border-radius: 10px;
+    font-size: 30px;
+    margin: 30px; }
+  /* SECTOR GALERIA 1440 */
+  .galeria-p1 {
+    font-size: 30px; }
+  .galeria-uno h2 {
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline;
+    background-color: aquamarine;
+    position: relative;
+    top: 5px; }
+  .galeria-p2 {
+    font-size: 30px; }
+  .galeria-dos h2 {
+    font-size: 40px; }
+  .galeria-tres h2 {
+    font-size: 35px; }
+  .galeria-p3 {
+    font-size: 30px; } }
