@@ -13,7 +13,7 @@
   font-family: 'Righteous', cursive;
   box-sizing: border-box; }
 
-/* SECTOR INDEX RESPONSIVE 500 - ZOOM 75%*/
+/* SECTOR INDEX RESPONSIVE 500 */
 .header-flex {
   background-color: #F56476;
   display: flex;
@@ -61,11 +61,13 @@
   font-size: 22px;
   text-decoration: underline;
   position: relative;
-  top: -10px; }
+  top: 10px; }
 
 .parrafo-uno {
   position: relative;
-  top: -10px; }
+  top: 10px;
+  max-width: 550px;
+  margin: auto; }
 
 p {
   position: relative;
@@ -74,19 +76,19 @@ p {
 
 button {
   position: relative;
-  top: -10px; }
+  top: 20px; }
 
 .producto img {
   position: relative;
-  top: -25px;
-  height: 100vh;
+  top: 1px;
+  height: 155vh;
   max-width: 98%;
   margin: auto; }
 
 .producto-dos img {
   position: relative;
   top: 20px;
-  height: 100vh;
+  height: 155vh;
   max-width: 98%;
   margin: auto; }
 
@@ -144,13 +146,13 @@ a {
   text-decoration: underline;
   position: relative; }
 
-/* CSS-SECTOR CONTACTO RESPONSIVE 500 - ZOOM 75% */
+/* CSS-SECTOR CONTACTO RESPONSIVE 500 */
 .contacto-css {
   background-color: #008DD5;
-  font-size: 10px;
-  height: 100vh;
+  font-size: 1px;
+  height: 100%;
   padding: 5rem;
-  text-align: left;
+  text-align: center;
   margin: auto; }
 
 input {
@@ -160,71 +162,75 @@ input {
   color: #eb3705;
   font-size: 20px;
   position: relative;
-  top: 80px;
+  top: -60px;
   margin: .6rem;
   padding: .6rem; }
 
 .contacto-consulta {
   width: 500px;
   height: 80px;
-  padding: 10px;
   margin: auto;
   position: relative;
-  top: 100px;
-  text-align: center; }
+  top: -50px;
+  text-align: center;
+  max-width: 100%; }
 
 select {
   position: relative;
-  top: 1px;
+  top: -20px;
   font-size: 20px;
   color: #ce0b0b; }
 
 .select-contact {
   font-size: 20px;
   position: relative;
+  top: 10px;
   padding: 3px;
   margin: 15px;
   max-width: 100%; }
 
 .novedad-contact {
   position: relative;
-  top: 500px;
-  font-size: 40px;
+  top: 20px;
+  font-size: 30px;
   max-width: 100%;
   margin: auto; }
 
 .recibir-nov {
   position: relative;
   font-size: 30px;
-  top: -800px;
+  top: 1px;
   text-align: center; }
 
 .icono-enviar {
   font-size: 30px;
   position: relative;
-  top: -60px;
+  top: 10px;
   border-radius: 10px;
   font-size: 30px; }
 
-/* CSS SECTOR SERVICIOS RESPONSIVE 500 - ZOOM 75%*/
+/* CSS SECTOR SERVICIOS RESPONSIVE 500 */
 .servicios-grid {
   display: grid;
   grid-template-columns: repeat(1, 1fr); }
 
 .servicio-uno img {
-  width: 80vw;
+  width: 100vw;
   height: 70vh;
   position: relative;
   top: 2px;
   max-width: 100%;
-  margin: auto; }
+  margin: auto;
+  padding: .5rem; }
 
 .servicio-uno h2 {
-  font-size: 27px;
+  font-size: 22px;
   text-decoration: underline;
   text-align: center;
   position: relative;
-  top: 10px; }
+  top: 10px;
+  max-width: 800px;
+  margin: auto; }
 
 .servicio-uno {
   background-color: #e43f6e94;
@@ -232,10 +238,10 @@ select {
 
 .servicio-p1 {
   text-align: center;
-  font-size: 20px;
+  font-size: 18px;
   position: relative;
   top: 10px;
-  max-width: 1200px;
+  max-width: 850px;
   margin: auto; }
 
 .servicio-dos img {
@@ -244,27 +250,33 @@ select {
   position: relative;
   top: 4px;
   max-width: 100%;
-  margin: auto; }
+  margin: auto;
+  padding: .5rem; }
 
 .servicio-dos h2 {
   text-decoration: underline;
   text-align: center;
   position: relative;
-  top: 10px; }
+  top: -1px;
+  font-size: 22px; }
 
 .servicio-p2 {
   text-align: center;
   position: relative;
-  top: 10px;
-  max-width: 1400px;
-  margin: auto; }
+  top: -10px;
+  max-width: 100%;
+  margin: auto;
+  font-size: 18px;
+  text-align: center; }
 
 .servicio-dos {
-  background-color: #e43f6e94; }
+  background-color: #e43f6e94;
+  max-width: 100%;
+  margin: auto; }
 
-/* CSS AREA INFORMACION RELEVANTE RESPONSIVE 500 - ZOOM 75%*/
+/* CSS AREA INFORMACION RELEVANTE RESPONSIVE 500 */
 .informacion-relevante h2 {
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
   text-decoration: underline; }
 
@@ -284,10 +296,11 @@ select {
   text-align: center;
   position: relative;
   top: 5px;
-  max-width: 1400px;
-  margin: auto; }
+  max-width: 100%;
+  margin: auto;
+  font-size: 18px; }
 
-/* CSS GALERIA PARA RESPONSIVE 500 - ZOOM 75% */
+/* CSS GALERIA PARA RESPONSIVE 500 */
 .galeria-uno img {
   height: 50vh;
   width: 100vw;
@@ -440,48 +453,69 @@ select {
     height: 150vh;
     position: relative;
     top: 2px;
-    padding: 10px; }
+    max-width: 100%;
+    padding: 5px;
+    margin: auto; }
   .servicio-dos img {
     width: 100vw;
     height: 200vh;
     position: relative;
     top: 4px;
-    padding: 10px; }
+    padding: 5px;
+    max-width: 100%;
+    margin: auto; }
   .servicio-uno h2 {
-    font-size: 40px;
+    font-size: 30px;
     text-decoration: underline;
     text-align: center;
     position: relative;
-    top: 10px; }
+    top: 10px;
+    max-width: 100%;
+    margin: auto; }
   .servicio-p1 {
     text-align: center;
-    font-size: 25px;
+    font-size: 22px;
     position: relative;
-    top: 10px; }
+    top: 10px;
+    max-width: 1100px; }
   .servicio-p2 {
-    font-size: 28px;
+    font-size: 22px;
     text-align: center;
     position: relative;
-    top: 10px; }
+    top: -10px;
+    max-width: 1100px;
+    margin: auto; }
+  .servicio-dos h2 {
+    font-size: 30px; }
   /* SECTOR CONTACTO 1440 */
   .novedad-contact {
     position: relative;
-    top: -20px;
-    font-size: 40px;
-    text-align: end; }
+    top: 100px;
+    font-size: 30px;
+    text-align: end;
+    margin-left: -210px; }
+  .contacto-css {
+    background-color: #008DD5;
+    font-size: 80px;
+    height: 100%;
+    padding: 5rem;
+    text-align: center;
+    margin: auto; }
   .contacto-form {
     position: relative;
-    top: -170px;
-    text-align: center; }
+    top: -150px;
+    text-align: center;
+    font-size: 5px; }
   .mapa-contacto {
     position: relative;
-    top: 30px;
-    padding: 0.5rem; }
+    top: 15px;
+    width: 400px;
+    height: 350px; }
   .select-contact {
     font-size: 20px;
     position: relative;
     text-align: center;
-    top: -200;
+    top: 100px;
     padding: .8rem;
     margin: 20px;
     max-width: 100%;
@@ -489,16 +523,16 @@ select {
   .recibir-nov {
     position: relative;
     font-size: 30px;
-    top: -8px;
+    top: 100px;
     text-align: center;
     padding: 2rem; }
   .icono-enviar {
     font-size: 30px;
     position: relative;
-    top: -10px;
+    top: 100px;
     border-radius: 10px;
     font-size: 30px;
-    margin: 30px; }
+    margin: auto; }
   /* SECTOR GALERIA 1440 */
   .galeria-p1 {
     font-size: 30px; }
@@ -516,4 +550,25 @@ select {
   .galeria-tres h2 {
     font-size: 35px; }
   .galeria-p3 {
-    font-size: 30px; } }
+    font-size: 30px; }
+  /* CSS AREA INFORMACION RELEVANTE RESPONSIVE 1440*/
+  .informacion-relevante h2 {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline; }
+  .informacionrelevante-grid {
+    width: 100vw;
+    text-align: center;
+    max-width: 100%;
+    margin: auto; }
+  .informacion-relevante iframe {
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    margin: auto; }
+  .parrafo-ir {
+    text-align: center;
+    position: relative;
+    top: 5px;
+    max-width: 1200px;
+    margin: auto; } }
