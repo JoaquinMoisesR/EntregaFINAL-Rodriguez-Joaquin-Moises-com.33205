@@ -96,14 +96,16 @@ button {
     position: relative;
     top: -25px;
     height: 100vh;
-    width: 100vw;
+    max-width: 98%;
+    margin: auto;
 }
 
 .producto-dos img {
     position: relative;
     top: 20px;
     height: 100vh;
-    width: 100vw;
+    max-width: 98%;
+    margin: auto;
 }
 
 .producto-dos {
@@ -175,7 +177,8 @@ a {
     font-size: 10px;
     height: 100vh;
     padding: 5rem;
-    text-align: center;
+    text-align:left;
+    margin: auto;
 }
 
 input {
@@ -185,7 +188,19 @@ input {
     color: #eb3705;
     font-size: 20px;
     position: relative;
-    top: -60px;
+    top: 80px;
+    margin: .6rem;
+    padding: .6rem;    
+}
+
+.contacto-consulta{
+    width: 500px;
+    height: 80px;
+    padding: 10px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    text-align: center;
 }
 
 select {
@@ -198,21 +213,23 @@ select {
 .select-contact {
     font-size: 20px;
     position: relative;
-    top: -70px;
     padding: 3px;
     margin: 15px;
+    max-width: 100%;
 }
 
 .novedad-contact {
     position: relative;
-    top: -80px;
+    top: 500px;
     font-size: 40px;
+    max-width: 100%;
+    margin: auto;
 }
 
 .recibir-nov {
     position: relative;
     font-size: 30px;
-    top: -80px;
+    top: -800px;
     text-align: center;
 }
 
@@ -233,10 +250,12 @@ select {
 }
 
 .servicio-uno img {
-    width: 100vw;
+    width: 80vw;
     height: 70vh;
     position: relative;
     top: 2px;
+    max-width: 100%;
+    margin: auto;
 }
 
 .servicio-uno h2 {
@@ -249,6 +268,7 @@ select {
 
 .servicio-uno {
     background-color: #e43f6e94;
+    max-width: 100%;
 }
 
 .servicio-p1 {
@@ -256,6 +276,8 @@ select {
     font-size: 20px;
     position: relative;
     top: 10px;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .servicio-dos img {
@@ -263,6 +285,8 @@ select {
     height: 80vh;
     position: relative;
     top: 4px;
+    max-width: 100%;
+    margin: auto;
 }
 
 .servicio-dos h2 {
@@ -276,6 +300,8 @@ select {
     text-align: center;
     position: relative;
     top: 10px;
+    max-width: 1400px;
+    margin: auto;
 }
 
 .servicio-dos {
@@ -294,17 +320,22 @@ select {
 .informacionrelevante-grid {
     width: 100vw;
     text-align: center;
+    max-width: 100%;
+    margin: auto;
 }
 
 .informacion-relevante iframe {
     height: 100vh;
     width: 100vw;
+    max-width: 100%;
+    margin: auto;
 }
-
 .parrafo-ir {
     text-align: center;
     position: relative;
     top: 5px;
+    max-width: 1400px;
+    margin: auto;
 }
 
 /* CSS GALERIA PARA RESPONSIVE 500 - ZOOM 75% */
@@ -312,6 +343,8 @@ select {
 .galeria-uno img {
     height: 50vh;
     width: 100vw;
+    max-width: 100%;
+    margin: auto;
 }
 
 .galeria-uno h2 {
@@ -328,10 +361,14 @@ select {
     position: relative;
     top: 8px;
     font-size: 23px;
+    max-width: 1500px;
+    margin: auto;
 }
 
 .galeria-dos img {
     width: 100vw;
+    max-width: 100%;
+    margin: auto;
 }
 
 .galeria-dos h2 {
@@ -362,6 +399,13 @@ select {
     position: relative;
     top: 5px;
     font-size: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.video-galeria {
+    max-width: 100%;
+    margin: auto;
 }
 
 /* MOBILE FIRST- RESPONSIVE LAPTOP 1440 - PC ESCRITORIO */
@@ -548,34 +592,51 @@ select {
 
     .novedad-contact {
         position: relative;
-        top: 50px;
+        top: -20px;
         font-size: 40px;
+        text-align: end;
+    }
+
+    .contacto-form{
+        position: relative;
+        top: -170px;
         text-align: center;
+    }
+
+    .mapa-contacto{
+        position: relative;
+        top:30px;
+        padding: 0.5rem;
     }
 
     .select-contact {
         font-size: 20px;
         position: relative;
-        top: 50px;
-        padding: 3px;
+        text-align: center;
+        top: -200;
+        padding: .8rem;
         margin: 20px;
+        max-width: 100%;
+        margin: auto;
     }
 
     .recibir-nov {
         position: relative;
         font-size: 30px;
-        top: 50px;
+        top: -8px;
         text-align: center;
+        padding: 2rem;
     }
 
     .icono-enviar {
         font-size: 30px;
         position: relative;
-        top: 50px;
+        top: -10px;
         border-radius: 10px;
         font-size: 30px;
         margin: 30px;
     }
+
 
     /* SECTOR GALERIA 1440 */
     .galeria-p1 {
