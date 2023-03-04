@@ -73,30 +73,30 @@
     font-size: 22px;
     text-decoration: underline;
     position: relative;
-    top: 10px;
+    top: -55px;
 }
 
 .parrafo-uno {
     position: relative;
-    top: 10px;
+    top: -55px;
     max-width: 550px;
     margin: auto;
 }
 
 p {
     position: relative;
-    top: -50px;
+    top: -55px;
     font-size: 20px;
 }
 
 button {
     position: relative;
-    top: 20px;
+    top: -40px;
 }
 
 .producto img {
     position: relative;
-    top: -45px;
+    top: -58px;
     height: 155vh;
     max-width: 98%;
     margin: auto;
@@ -104,7 +104,7 @@ button {
 
 .producto-dos img {
     position: relative;
-    top: 20px;
+    top: -30px;
     height: 155vh;
     max-width: 98%;
     margin: auto;
@@ -122,14 +122,14 @@ button {
     font-size: 20px;
     text-decoration: underline;
     position: relative;
-    top: 30px;
+    top: -25px;
 }
 
 .parrafo-dos {
     text-align: center;
     font-size: 20px;
     position: relative;
-    top: 20px;
+    top: -20px;
 }
 
 .button-dos {
@@ -179,7 +179,7 @@ a {
     font-size: 1px;
     height: 100%;
     padding: 5rem;
-    text-align:center;
+    text-align: center;
     margin: auto;
 }
 
@@ -195,7 +195,7 @@ input {
     padding: .6rem;
 }
 
-.contacto-consulta{
+.contacto-consulta {
     width: 500px;
     height: 80px;
     margin: auto;
@@ -342,6 +342,7 @@ select {
     max-width: 100%;
     margin: auto;
 }
+
 .parrafo-ir {
     text-align: center;
     position: relative;
@@ -470,7 +471,7 @@ select {
         width: 50vw;
         padding: .5px;
         position: relative;
-        top: -0.5px;
+        top: -1px;
 
     }
 
@@ -607,7 +608,7 @@ select {
         margin: auto;
     }
 
-    .servicio-dos h2{
+    .servicio-dos h2 {
         font-size: 30px;
     }
 
@@ -626,20 +627,20 @@ select {
         font-size: 80px;
         height: 100%;
         padding: 5rem;
-        text-align:center;
+        text-align: center;
         margin: auto;
     }
 
-    .contacto-form{
+    .contacto-form {
         position: relative;
         top: -150px;
         text-align: center;
         font-size: 5px;
     }
 
-    .mapa-contacto{
+    .mapa-contacto {
         position: relative;
-        top:15px;
+        top: 15px;
         width: 400px;
         height: 350px;
     }
@@ -705,38 +706,39 @@ select {
 
     /* CSS AREA INFORMACION RELEVANTE RESPONSIVE 1440*/
 
-.informacion-relevante h2 {
-    font-size: 30px;
-    text-align: center;
-    text-decoration: underline;
-}
+    .informacion-relevante h2 {
+        font-size: 30px;
+        text-align: center;
+        text-decoration: underline;
+    }
 
-.informacionrelevante-grid {
-    width: 100vw;
-    text-align: center;
-    max-width: 100%;
-    margin: auto;
-}
+    .informacionrelevante-grid {
+        width: 100vw;
+        text-align: center;
+        max-width: 100%;
+        margin: auto;
+    }
 
-.informacion-relevante iframe {
-    height: 100vh;
-    width: 100vw;
-    max-width: 100%;
-    margin: auto;
-}
-.parrafo-ir {
-    text-align: center;
-    position: relative;
-    top: 5px;
-    max-width: 1200px;
-    margin: auto;
-}
+    .informacion-relevante iframe {
+        height: 100vh;
+        width: 100vw;
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .parrafo-ir {
+        text-align: center;
+        position: relative;
+        top: 5px;
+        max-width: 1200px;
+        margin: auto;
+    }
 
 }
 
 /* RESPONSIVE LAPTOP 1024*/
 
- 
+
 @media (min-width: 1024px) {
     .producto img {
         position: relative;
@@ -748,18 +750,19 @@ select {
 
     .producto-dos img {
         position: relative;
-        top: 20px;
+        top: 1px;
         height: 155vh;
         max-width: 98%;
         margin: auto;
     }
+
     .galeria-p2 {
         font-size: 28px;
         max-width: 1000px;
         margin: auto;
     }
 
-    .video-galeria{
+    .video-galeria {
         max-width: 100%;
         margin: auto;
         width: 1050px;
@@ -824,5 +827,47 @@ select {
         margin: auto;
     }
 
+    .button-dos{
+        position: relative;
+        top: -10px;
+        font-size: 20px;
+    }
+
+    .producto-dos h2 {
+        font-size: 30px;
+        text-decoration: underline;
+        position: relative;
+        top: 10px;
+    }
+
+    .parrafo-dos {
+        text-align: center;
+        position: relative;
+        top: -1px;
+    }
+
+    .button-uno{
+        position: relative;
+        top: -1px;
+        font-size: 20px;
+    }
+
+    .parrafo-uno{
+        position: relative;
+        top: -1px;
+    }
+
+    .producto h2{
+        position: relative;
+        top: 10px;
+    }
+
+    .vestidouno:hover{
+        filter: grayscale(100%);
+    }
+
+    .vestidodos:hover{
+        filter: sepia(50%);
+    }
 
 }
