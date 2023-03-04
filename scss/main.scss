@@ -192,7 +192,7 @@ input {
     position: relative;
     top: -60px;
     margin: .6rem;
-    padding: .6rem;    
+    padding: .6rem;
 }
 
 .contacto-consulta{
@@ -731,5 +731,98 @@ select {
     max-width: 1200px;
     margin: auto;
 }
+
+}
+
+/* RESPONSIVE LAPTOP 1024*/
+
+ 
+@media (min-width: 1024px) {
+    .producto img {
+        position: relative;
+        top: 5px;
+        height: 155vh;
+        max-width: 98%;
+        margin: auto;
+    }
+
+    .producto-dos img {
+        position: relative;
+        top: 20px;
+        height: 155vh;
+        max-width: 98%;
+        margin: auto;
+    }
+    .galeria-p2 {
+        font-size: 28px;
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    .video-galeria{
+        max-width: 100%;
+        margin: auto;
+        width: 1050px;
+        padding: 5px;
+        height: 600px;
+    }
+
+    .galeria-p3 {
+        font-size: 27px;
+        max-width: 1000px;
+    }
+
+    .novedad-contact {
+        position: relative;
+        top: 70px;
+        font-size: 30px;
+        text-align: end;
+        margin-left: -210px;
+    }
+
+    .select-contact {
+        font-size: 20px;
+        position: relative;
+        text-align: center;
+        top: 70px;
+        padding: .8rem;
+        margin: 20px;
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .recibir-nov {
+        position: relative;
+        font-size: 30px;
+        top: 70px;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .icono-enviar {
+        font-size: 30px;
+        position: relative;
+        top: 80px;
+        border-radius: 10px;
+        font-size: 30px;
+        margin: auto;
+    }
+
+    .informacion-relevante h2 {
+        font-size: 30px;
+        text-align: center;
+        text-decoration: underline;
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .parrafo-ir {
+        text-align: center;
+        position: relative;
+        top: 5px;
+        max-width: 1000px;
+        margin: auto;
+    }
+
 
 }
